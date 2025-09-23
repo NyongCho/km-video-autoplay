@@ -1,0 +1,11 @@
+{
+    "user": {
+        "id": "kmooc@gmail.com",
+        "pw": "Mypassword@123"
+    },
+    "video": {
+        "class_url": "https://lms.kmooc.kr/course/view.php?id=1234",
+        "chapter": 4,
+        "video_limit": 10
+    }
+}
