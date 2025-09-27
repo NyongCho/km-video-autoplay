@@ -16,13 +16,13 @@ Before running, create a `config.json` file in the project root:
 ```json
 {
     "user": {
-        "id": "kmooc@gmail.com",
+        "id": "user@gmail.com",
         "pw": "Mypassword@123"
     },
     "video": {
-        "class_url": "https://lms.kmooc.kr/course/view.php?id=1234",
+        "class_url": "https://km.com/course/view.php?id=1234",
         "chapter": 4,
-        "detect_number": 10
+        "video_limit": 10
     }
 }
 ```
