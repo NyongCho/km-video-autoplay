@@ -92,7 +92,7 @@ try:
     videos = []
 
     # we don't know how many videos in a chapter, so we try to detect the videos from 1 to the variable that you defined.
-    for i in range(5, video_limit+1):
+    for i in range(1, video_limit+1):
         try:
             video = driver.find_element(
                 By.XPATH, xpath[0]+str(chapter)+xpath[1]+str(i)+xpath[2])
